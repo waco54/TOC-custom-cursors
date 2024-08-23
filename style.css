@@ -6,8 +6,7 @@
 }
 
 .cursor-maker {
-  display: flex;
-  align-items: center;
+  margin-left: 30px;
 }
 
 select {
