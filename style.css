@@ -35,6 +35,12 @@ button {
   background-color: red;
 }
 
+.size {
+  width: 20px;
+  height: 20px;
+  border: 2px solid black;
+}
+
 .jsCode {
   width: 90%;
   height: 300px;
