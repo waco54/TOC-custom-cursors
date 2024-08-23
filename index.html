@@ -1,15 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>TOC Custom Cursors</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="/assets/favicon.ico" type="image/x-icon">
-  </head>
-  <body>
-      <h2>Please select a cursor or make one using the custom cursor maker below:</h2>
-	<script src="main.js"></script>
-  </body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>TOC Custom Cursors</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="/assets/favicon.ico" type="image/x-icon">
+    </head>
+    <body>
+        <h2>Please select a cursor or make one using the custom cursor maker below:</h2>
+        <h4>Color:</h4>
+        <div class="color"></div>
+        <select onclick="updateColor()" name="color" id="color">
+            <option value="red">Red</option>
+            <option value="#1cc922">Green</option>
+            <option value="#1c73c9">Blue</option>
+            <option value="#ff00dd">Pink</option>
+            <option value="yellow">yellow</option>
+        </select>
+        <h4>Shape:</h4>
+        <img class="color" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHDJ4-4Sn7H2l1PNEs1gYhueV2lOdnMYqT1w&s"></img>
+        <select name="shape" id="shape">
+            <option value="default">Default</option>
+            <option value="crosshair">crosshair</option>
+            <option value="star">star</option>
+            <option value="circle">circle</option>
+        </select>
+        <h4>Size:</h4>
+        <img class="color" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHDJ4-4Sn7H2l1PNEs1gYhueV2lOdnMYqT1w&s"></img>
+        <select name="size" id="size">
+            <option value="default">Default</option>
+            <option value="small">Small</option>
+            <option value="large">Large</option>
+        </select>
+        </div>
+    </body>
+    <script src="main.js"></script>
 </html>
