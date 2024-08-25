@@ -5,6 +5,10 @@
   font-family: monospace, sans-serif;
 }
 
+.cursor-container {
+  display: flex;
+}
+
 .cursor-maker {
   margin-left: 30px;
   padding: 10px;
