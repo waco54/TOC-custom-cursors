@@ -12,6 +12,11 @@
   flex-direction: row;
 }
 
+.cursor-image {
+  user-select: none;
+  cursor: pointer;
+}
+
 select {
   outline: none;
   margin: 0 10px;
